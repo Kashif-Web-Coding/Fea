@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feane</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="brand" href="index.html">Feane</a>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#our-menu">MENU</a></li>
+                <li><a href="#about-Section">ABOUT</a></li>
+                <li><a href="#book-Section">BOOK TABLE</a></li>
+            </ul>
+
+            <div class="mobile-right">
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-cart-shopping"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#" class="order-btn">Order Online</a>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-cart-shopping"></i></a>
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#" class="order-btn">Order Online</a>
+        </div>
+    </nav>
+
+    <!-- Hero Image Section -->
+    <div class="hero-image" id="home">
+        <img src="hero-bg.jpg" alt="Restaurant Interior">
+    </div>
+
+
+    <!-- Carousel Section -->
+    <section>
+        <div class="carousel" id="carousel">
+
+            <!-- Slides Wrapper -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1>Fast Food Restaurant</h1>
+                    <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
+                        quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos
+                        nihil ducimus libero ipsam. </p>
+                    <a href="#" class="btn1">Order Online</a>
+                </div>
+                <div class="carousel-item">
+                    <h1>Fast Food Restaurant </h1>
+                    <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
+                        quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos
+                        nihil ducimus libero ipsam. </p>
+                    <a href="#" class="btn1">Order Online</a>
+                </div>
+                <div class="carousel-item">
+                    <h1>Fast Food Restaurant </h1>
+                    <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
+                        quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos
+                        nihil ducimus libero ipsam. </p>
+                    <a href="#" class="btn1">Order Online</a>
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button data-slide="0" class="active"></button>
+                <button data-slide="1"></button>
+                <button data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Offer Section -->
+    <section class="offer-section">
+        <div class="offer-container">
+            <div class="offer-details">
+                <div class="offer-img">
+                    <img src="image1.jpg" alt="Burger Offer">
+                </div>
+                <div class="offer-content">
+                    <h5>Tasty Thursdays</h5>
+                    <h6><span>20%</span>off</h6>
+                    <div class="ofer-btn">
+                        <a href="#" class="order-btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offer-details">
+                <div class="offer-img">
+                    <img src="image2.jpg" alt="Burger Offer">
+                </div>
+                <div class="offer-content">
+                    <h5>Pizza Days </h5>
+                    <h6><span>15%</span>off</h6>
+                    <div class="ofer-btn">
+                        <a href="#" class="order-btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- nav - tabs -->
+    <section class="nav-tabs" id="our-menu">
+        <div class="nav-tabs-container">
+            <header>
+                <h1>Our Menu</h1>
+            </header>
+
+            <div class="filter-links">
+                <a class="filter-link active" data-filter="all">All</a>
+                <a class="filter-link" data-filter="burger">Burger</a>
+                <a class="filter-link" data-filter="pizza">Pizza</a>
+                <a class="filter-link" data-filter="pasta">Pasta</a>
+                <a class="filter-link" data-filter="fries">Fries</a>
+                <a class="filter-link" data-filter="biryani">Rice</a>
+            </div>
+
+            <div class="menu-items">
+                <!-- Burgers -->
+                <div class="menu-item" data-category="biryani">
+                    <div class="item-image">
+                        <img src="f1.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Fried Rice</h3>
+                        <p class="item-description">Delicious fried rice cooked with fresh vegetables, aromatic spices, and a perfect balance of flavors to satisfy your cravings.</p>
+                        <div class="item-price">
+                            $30
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="menu-item" data-category="burger">
+                    <div class="item-image">
+                        <img src="f2.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Classic Beef Burger</h3>
+                        <p class="item-description">A juicy beef patty served with lettuce, tomato, cheese, and a soft bun that makes every bite unforgettable.</p>
+                        <div class="item-price">
+                            $45
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="menu-item" data-category="pizza">
+                    <div class="item-image">
+                        <img src="f3.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Vegetable Pizza</h3>
+                        <p class="item-description">Crispy crust topped with fresh vegetables, tangy tomato sauce, and melted cheese for a mouthwatering experience.</p>
+                        <div class="item-price">
+                            $30
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="menu-item" data-category="pasta">
+                    <div class="item-image">
+                        <img src="f4.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Pasta Salad</h3>
+                        <p class="item-description">A creamy and colorful pasta salad mixed with fresh veggies, herbs, and a rich dressing for a refreshing taste.</p>
+                        <div class="item-price">
+                            $15
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="menu-item" data-category="fries">
+                    <div class="item-image">
+                        <img src="f5.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">French Fries</h3>
+                        <p class="item-description">Crispy golden fries made from fresh potatoes, lightly salted, and served hot for the perfect snack.</p>
+                        <div class="item-price">
+                            $25
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="menu-item" data-category="pizza">
+                    <div class="item-image">
+                        <img src="f6.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Cheese Pizza</h3>
+                        <p class="item-description">A classic cheesy pizza topped with rich mozzarella, soft crust, and a flavorful tomato base that melts in your mouth.</p>
+                        <div class="item-price">
+                            $60
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="menu-item" data-category="burger">
+                    <div class="item-image">
+                        <img src="f7.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Crispy Chicken Burger</h3>
+                        <p class="item-description">A crunchy fried chicken fillet layered with lettuce, mayo, and a soft bun to give you the ultimate burger experience.</p>
+                        <div class="item-price">
+                            $15
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="menu-item" data-category="burger">
+                    <div class="item-image">
+                        <img src="f8.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Zinger Burger</h3>
+                        <p class="item-description">Spicy chicken fillet coated with crispy crumbs, served with lettuce, mayo, and soft buns for a fiery taste.</p>
+                        <div class="item-price">
+                            $45
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="menu-item" data-category="biryani">
+                    <div class="item-image">
+                        <img src="f9.png" alt="Burger">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-title">Biryani</h3>
+                        <p class="item-description">Fragrant basmati rice cooked with a blend of traditional spices, herbs, and tender pieces for a royal meal.</p>
+                        <div class="item-price">
+                            $25
+                            <a class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="view-more">
+                <a href="#" class="view-more-btn">View More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- about section -->
+
+    <section class="about-section" id="about-Section">
+        <div class="about-container">
+            <div class="about-col-one">
+                <div class="about-img">
+                    <img src="about-img.png" alt="">
+                </div>
+            </div>
+            <div class="about-col-two">
+                <div class="about-content">
+                    <h2>We Are Feane</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                        anything embarrassing hidden in the middle of text. All </p>
+                    <div class="about-btn">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Book section -->
+
+    <section class="book-section" id="book-Section">
+        <div class="book-section-container">
+            <!-- Left Side Form -->
+            <div class="book-col-one">
+                <form action="">
+                    <h2>Book A Table</h2>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="number" placeholder="No. of Persons" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="date" required>
+                    </div>
+
+                    <button type="submit" class="book-btn">Book Now</button>
+                </form>
+            </div>
+
+            <!-- Right Side Content -->
+            <div class="book-col-two">
+                <div class="book-content">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.686220098066!2d67.00113657401002!3d24.808049977942492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eaa2c7e9e07%3A0xa6ccf781c4f32c0!2sKarachi!5e0!3m2!1sen!2s!4v1695479202601!5m2!1sen!2s"
+                            width="100%" height="300" style="border:0;" allowfunscreen="" loading="lazy"
+                            referrerpolicy="no-reffer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Carousel Section -->
+    <section>
+        <div class="slider" id="slider">
+            <h2>What Says Our Customers </h2>
+            <!-- Slides Wrapper -->
+            <div class="slider-inner">
+                <div class="slider-item active">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <h6>Mike Hamell</h6>
+                    <div class="span">magna aliqua</div>
+                    <div class="client-img">
+                        <div class="client-one">
+                            <img src="client1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slider-item active">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <h6>Mike Hamell</h6>
+                    <div class="span">magna aliqua</div>
+                    <div class="client-img">
+                        <div class="client-one">
+                            <img src="client2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <div class="slider-indicators">
+                <i class="fa-solid fa-angle-left" data-slide="0" class="active"></i>
+                <i class="fa-solid fa-angle-right" data-slide="1"></i>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+
+
+    <footer>
+        <div class="footer-container">
+            <!-- Contact Us -->
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>Location</li>
+                    <li><i class="fa-solid fa-phone"></i>Call +01 1234567890</li>
+                    <li><i class="fa-solid fa-envelope"></i>demo@gmail.com</li>
+                </ul>
+            </div>
+
+            <!-- Middle Column -->
+            <div class="footer-col">
+                <h4>Feane</h4>
+                <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200
+                    Latin words, combined with </p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+
+            <!-- opening Hours -->
+            <div class="footer-col">
+                <h4>Opening Hours</h4>
+                <p>Everyday</p>
+                <span>10.00 AM - 10.00 PM</span>
+            </div>
+        </div>
+
+        <!-- Bottom Text -->
+        <div class="footer-bottom">
+            <p>© 2025 All Rights Reserved By Free Html Templates</p>
+            <p>© Distributed By ThemeWagon</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
